@@ -3,24 +3,24 @@
 	<parent>
 		<groupId>fish.focus.maven</groupId>
 		<artifactId>focus-pom</artifactId>
-		<version>2.1</version>
+		<version>2.5</version>
 		<relativePath />
 	</parent>
-	<groupId>eu.europa.ec.fisheries.uvms.geoserver.web.overlay</groupId>
+	<groupId>fish.focus.uvms.geoserver.web.overlay</groupId>
 	<artifactId>gs-web-app</artifactId>
 	<version>2.19.4.3-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<url>https://github.com/UnionVMS/geoserver-overlay</url>
+	<url>https://github.com/FocusFish/geoserver-overlay</url>
 	<scm>
 		<connection>${scm.connection}</connection>
 		<tag>HEAD</tag>
 	</scm>
 	<properties>
 		<project.scm.id>github</project.scm.id>
-		<scm.connection>scm:git:https://github.com/UnionVMS/geoserver-overlay.git</scm.connection>
-		<scm.url>scm:git:https://github.com/UnionVMS/geoserver-overlay.git</scm.url>
+		<scm.connection>scm:git:https://github.com/FocusFish/geoserver-overlay.git</scm.connection>
+		<scm.url>scm:git:https://github.com/FocusFish/geoserver-overlay.git</scm.url>
 		<original.geoserver.version>2.19.4</original.geoserver.version>
-		<uvms.usm4uvms.version>4.1.9</uvms.usm4uvms.version>
+		<uvms.usm4uvms.version>4.1.10</uvms.usm4uvms.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -37,7 +37,7 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>eu.europa.ec.fisheries.uvms</groupId>
+			<groupId>fish.focus.uvms.lib</groupId>
 			<artifactId>usm4uvms</artifactId>
 			<type>jar</type>
 			<version>${uvms.usm4uvms.version}</version>
