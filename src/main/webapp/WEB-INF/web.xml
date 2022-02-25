@@ -65,7 +65,7 @@
     <!--add USM JWToken validation to restrict access to Geoserver-->
     <filter>
         <filter-name>AuthenticationFilter</filter-name>
-        <filter-class>eu.europa.ec.fisheries.uvms.rest.security.AuthenticationFilter</filter-class>
+        <filter-class>fish.focus.uvms.rest.security.AuthenticationFilter</filter-class>
     </filter>
     
     <filter>
