@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>fish.focus.uvms.geoserver.web.overlay</groupId>
 	<artifactId>gs-web-app</artifactId>
-	<version>2.19.4.3</version>
+	<version>2.19.6.0</version>
 	<packaging>war</packaging>
 	<url>https://github.com/FocusFish/geoserver-overlay</url>
 	<scm>
@@ -19,8 +19,8 @@
 		<project.scm.id>github</project.scm.id>
 		<scm.connection>scm:git:https://github.com/FocusFish/geoserver-overlay.git</scm.connection>
 		<scm.url>scm:git:https://github.com/FocusFish/geoserver-overlay.git</scm.url>
-		<original.geoserver.version>2.19.4</original.geoserver.version>
-		<uvms.usm4uvms.version>4.1.10</uvms.usm4uvms.version>
+		<original.geoserver.version>2.19.6</original.geoserver.version>
+		<uvms.usm4uvms.version>4.1.11</uvms.usm4uvms.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -48,7 +48,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.0.2</version>
+				<version>3.3.0</version>
 				<executions>
 					<execution>
 						<id>copy</id>
