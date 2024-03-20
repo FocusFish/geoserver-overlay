@@ -19,7 +19,7 @@
 		<project.scm.id>github</project.scm.id>
 		<scm.connection>scm:git:https://github.com/FocusFish/geoserver-overlay.git</scm.connection>
 		<scm.url>scm:git:https://github.com/FocusFish/geoserver-overlay.git</scm.url>
-		<original.geoserver.version>2.24.2</original.geoserver.version>
+		<original.geoserver.version>2.25.0</original.geoserver.version>
 		<uvms.usm4uvms.version>4.1.12</uvms.usm4uvms.version>
 	</properties>
 	<dependencies>
