@@ -61,7 +61,7 @@
 								<artifactItem>
 									<groupId>org.eclipse.jetty</groupId>
 									<artifactId>jetty-servlets</artifactId>
-									<version>9.4.36.v20210114</version>
+									<version>11.0.20</version>
 									<outputDirectory>${project.build.directory}/${project.artifactId}-${project.version}/WEB-INF/lib/</outputDirectory>
 								</artifactItem>
 								<artifactItem>
