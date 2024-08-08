@@ -4,12 +4,12 @@ registries:
     type: maven-repository
     url: https://repo.osgeo.org/repository/release
 updates:
-- package-ecosystem: maven
-  directory: "/"
-  registries:
-    - maven-osgeo
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-  reviewers:
-    - FocusFish/uvmsdevs
+  - package-ecosystem: maven
+    directory: "/"
+    registries:
+      - maven-osgeo
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - FocusFish/uvmsdevs
