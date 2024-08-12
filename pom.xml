@@ -42,6 +42,12 @@
             <artifactId>usm4uvms</artifactId>
             <type>jar</type>
             <version>${uvms.usm4uvms.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.commons</groupId>
+                    <artifactId>commons-lang3</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
     <build>
