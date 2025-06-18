@@ -12,7 +12,7 @@
         <!-- Meaning of the different values :
 
              PARTIAL-BUFFER2
-             - Partially buffers the first xKb to disk. Once that has buffered, the the
+             - Partially buffers the first xKb to disk. Once that has buffered, the
                result is streamed to the user. This will allow for most errors to be caught
                early.
 
@@ -97,8 +97,8 @@
     </filter>
 
     <filter>
-        <filter-name>xFrameOptionsFilter</filter-name>
-        <filter-class>org.geoserver.filters.XFrameOptionsFilter</filter-class>
+        <filter-name>securityHeadersFilter</filter-name>
+        <filter-class>org.geoserver.filters.SecurityHeadersFilter</filter-class>
     </filter>
 
     <filter>
@@ -109,7 +109,7 @@
                  If a mime type matches any of the regular expressions then it will be compressed.
                  -->
             <param-name>compressed-types</param-name>
-            <param-value>text/.*,.*xml.*,application/json,application/x-javascript</param-value>
+            <param-value>text/.*,.*xml.*,application/json,application/javascript</param-value>
         </init-param>
     </filter>
 
@@ -243,7 +243,7 @@
     </filter-mapping>
 
     <filter-mapping>
-        <filter-name>xFrameOptionsFilter</filter-name>
+        <filter-name>securityHeadersFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
